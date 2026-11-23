@@ -1,8 +1,8 @@
 def test_login(user, password):
     if user == 'admin' and password == '1234':
-        print('login success')
+        print('SUCCESS')
     else:
-        print('login failed')
+        print('FAIL')
 
 test_login('admin', '1234')
 test_login('user', '0000')
