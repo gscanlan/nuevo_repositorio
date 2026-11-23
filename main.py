@@ -5,4 +5,4 @@ def test_login(user, password):
         print('FAIL')
 
 test_login('admin', '1234')
-test_login('user', '0000')
+test_login('userrr', '0000')
